@@ -2,4 +2,4 @@ dataset/*
 yolo_ds/*
 out/*
 *.pt
-*.txt
+stats.txt

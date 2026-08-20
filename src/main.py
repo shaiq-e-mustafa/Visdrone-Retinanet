@@ -122,6 +122,7 @@ def run_model(config):
         train_ratio=train_ratio,
         val_ratio=val_ratio,
         test_ratio=test_ratio,
+        batch_size=1
     )
 
     model = build_model(model_name, NUM_CLASSES_INCL_BACKGROUND, True).to(device)
