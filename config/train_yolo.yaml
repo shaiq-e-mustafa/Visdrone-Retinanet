@@ -1,0 +1,6 @@
+yolo:
+  v8: "yolov8n.pt"
+  epochs: 10
+  image_size: 960
+  save_dir: "output"
+  batch_size: -1

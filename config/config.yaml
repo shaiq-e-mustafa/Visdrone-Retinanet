@@ -1,0 +1,28 @@
+paths:
+  dataset_dir: "dataset"
+  raw_dir : "raw"
+  images: "images"
+  annotations: "annotations"
+  destination: "yolo_ds"
+  save_dir: "out"
+  run_name: "fcos_run1"
+  
+
+settings:
+  chunk_size: 64
+  train_ratio: 0.7
+  val_ratio: 0.2
+  test_ratio: 0.1
+  split_yolo: True
+  model: "fcos"
+  num_classes: 3
+  epochs: 50
+  learning_rate: 0.0001 
+  amp: True
+  results_csv: "results_fcos.csv"
+
+runner:
+  workers: 8
+  mode: "copy"
+  seed: 42
+

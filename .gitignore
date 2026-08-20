@@ -1,0 +1,5 @@
+dataset/*
+yolo_ds/*
+out/*
+*.pt
+*.txt
